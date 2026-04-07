@@ -1,0 +1,61 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Environment Variables (Security) ---
+.env
+.venv
+env.sh
+*.env
+
+# --- Project Specific (Large Files) ---
+data/*.csv
+data/*.zip
+data/*.json
+# We keep the models folder but you can ignore large checkpoints if needed
+# models/*.pth 
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Docker ---
+.docker/
+# Ignore local db data if you mounted a volume for persistence
+mysql_data/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
