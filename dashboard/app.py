@@ -6,7 +6,7 @@ import os
 DB_URL = os.getenv("DATABASE_URL", "mysql+pymysql://root:password@db:3306/fraud_db")
 engine = create_engine(DB_URL)
 
-st.set_page_config(page_title="Fraud Monitor", layout="wide")
+st.set_page_config(page_title="Fraud Detection Dashboard")
 st.title("🛡️ Fraud Detection Real-Time Dashboard")
 
 if st.sidebar.button('Refresh'):
